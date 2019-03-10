@@ -27,6 +27,7 @@
 # include <BRep_Builder.hxx>
 # include <TopTools_HSequenceOfShape.hxx>
 # include <STEPControl_Writer.hxx>
+# include <STEPCAFControl_Writer.hxx>
 # include <STEPControl_Reader.hxx>
 # include <StepData_StepModel.hxx>
 # include <TopoDS.hxx>

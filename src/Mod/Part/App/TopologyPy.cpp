@@ -38,6 +38,7 @@
 # include <IGESControl_Writer.hxx>
 # include <IGESControl_Reader.hxx>
 # include <STEPControl_Writer.hxx>
+# include <STEPCAFControl_Writer.hxx>
 # include <STEPControl_Reader.hxx>
 # include <StlAPI_Writer.hxx>
 # include <Interface_Static.hxx>
@@ -637,7 +638,7 @@ PyObject *TopoShapePyOld::exportSTEP(PyObject *args)
   PY_TRY {
 
     // write step file
-    STEPControl_Writer aWriter;
+    STEPCAFControl_Writer aWriter;
 
     //FIXME: Does not work this way!!!
     if (aWriter.Transfer(_cTopoShape, STEPControl_AsIs)) {

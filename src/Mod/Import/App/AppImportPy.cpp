@@ -37,6 +37,7 @@
 # include <STEPCAFControl_Reader.hxx>
 # include <STEPCAFControl_Writer.hxx>
 # include <STEPControl_Writer.hxx>
+# include <STEPCAFControl_Writer.hxx>
 # include <IGESCAFControl_Reader.hxx>
 # include <IGESCAFControl_Writer.hxx>
 # include <IGESControl_Controller.hxx>

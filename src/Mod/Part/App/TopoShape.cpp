@@ -110,6 +110,7 @@
 # include <IGESData_GlobalSection.hxx>
 # include <IGESData_IGESModel.hxx>
 # include <STEPControl_Writer.hxx>
+# include <STEPCAFControl_Writer.hxx>
 # include <STEPControl_Reader.hxx>
 # include <TopTools_MapOfShape.hxx>
 # include <TopoDS.hxx>
@@ -692,7 +693,7 @@ void TopoShape::exportStep(const char *filename) const
 {
     try {
         // write step file
-        STEPControl_Writer aWriter;
+        STEPCAFControl_Writer aWriter;
 
         const Handle(XSControl_TransferWriter)& hTransferWriter = aWriter.WS()->TransferWriter();
         Handle(Transfer_FinderProcess) hFinder = hTransferWriter->FinderProcess();

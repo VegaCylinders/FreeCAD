@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../appveyor.yml">
+   </FileRef>
+   <FileRef
+      location = "group:../ChangeLog.txt">
+   </FileRef>
+   <FileRef
+      location = "group:../cMake">
+   </FileRef>
+   <FileRef
+      location = "group:../CMakeLists.txt">
+   </FileRef>
+   <FileRef
+      location = "group:../config.h.cmake">
+   </FileRef>
+   <FileRef
+      location = "group:../COPYING">
+   </FileRef>
+   <FileRef
+      location = "group:../data">
+   </FileRef>
+   <FileRef
+      location = "group:../LibraryVersions.h.cmake">
+   </FileRef>
+   <FileRef
+      location = "group:../package">
+   </FileRef>
+   <FileRef
+      location = "group:../README.md">
+   </FileRef>
+   <FileRef
+      location = "group:../src">
+   </FileRef>
+   <FileRef
+      location = "group:../subuser">
+   </FileRef>
+   <FileRef
+      location = "group:../vagrant">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

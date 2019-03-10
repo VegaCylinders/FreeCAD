@@ -26,6 +26,7 @@
 # include <fcntl.h>
 # include <TopTools_HSequenceOfShape.hxx>
 # include <STEPControl_Writer.hxx>
+# include <STEPCAFControl_Writer.hxx>
 # include <STEPControl_Reader.hxx>
 # include <TopoDS_Shape.hxx>
 # include <TFunction_Logbook.hxx>

@@ -243,6 +243,7 @@
 
 // Import
 #include <STEPControl_Writer.hxx>
+#include <STEPCAFControl_Writer.hxx>
 #include <STEPControl_Reader.hxx>
 #include <StepData_StepModel.hxx>
 #include <IGESControl_Controller.hxx>
